@@ -7,14 +7,18 @@ public class StudentTest {
 		Student studentLee = new Student();
 		//studentLee는 instance라고 함.
 		//각 인스턴스는 각자 메모리 공간을 가지고 있음.(HeapMemory, 동적 메모리)
+		
+		//이건 맴버변수를 이용
 		studentLee.studentId = 12345;
+		//이건 매서드를 이용한 것
 		studentLee.setStudentName("LEE");
 		studentLee.address = "서울 강남구";
 		
 		studentLee.showStudentInfo();
 		
 		
-		//-------------------------
+		//-------------------------//new라고 하는 것이 생성자
+		//생성자를 통해 생성되는 것이 인스턴스
 		Student studentKim = new Student();
 		
 		studentKim.studentId = 678910;
