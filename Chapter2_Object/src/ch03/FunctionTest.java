@@ -45,5 +45,4 @@ public class FunctionTest {
 		total = calcSum();
 		System.out.println(total);
 	}
-
 }
